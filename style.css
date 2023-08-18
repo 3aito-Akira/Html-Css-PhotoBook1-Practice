@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+header {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+figure {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+body {
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+.index {
+    background-color: aliceblue;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.detail {
+    background-color: darkkhaki;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+}
+
+div.detailInfo {
+    display:flex;
+}
+
+figure.details {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img.details {
+    width: 200px;
+    height: 200px;
+}
+
+dl {
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;    /* dtとddが100%になったら、横並びを折り返す */
+}
+
+dt {
+    width: 25%;
+}
+
+dd {
+    width: 75%;
+    margin: 0; 
+}
+
+.link {
+    color: #333;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.link:hover {
+    opacity: 0.8;
+}
+
+ol {
+    padding-left: 0px;
+}
+
+footer {
+    font-size: 10px;
+    padding-left: 200px;
+}
+
+th {
+    text-align: left;
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p.explanation {
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
